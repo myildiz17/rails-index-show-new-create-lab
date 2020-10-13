@@ -1,0 +1,7 @@
+
+<h1> Store: <%= @coupon.store %> </h1>
+<h1>Code: <%= @coupon.coupon_code %> </h1>
+
+
+<%= link_to "Index Page", coupons_path %>
+<%= button_to "Delete", coupon_path(@coupon), method: :delete %>
